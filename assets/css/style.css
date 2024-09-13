@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+html {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-conteiner {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    max-width: 384px;
+    max-height: 522px;
+    padding: 24px;
+    box-shadow: 8px 8px 1px black;
+}
+
+.illustration img {
+    max-width: 336px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.conteiner-conteudo {
+    margin-bottom: 0px;
+}
+.bt {
+    background-color: hsl(47, 88%, 63%);
+    width: 82px;
+    height: 29px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 10px;
+    font-weight: 800;
+    cursor: pointer;
+    
+}
+.bt:hover {
+    background-color: hsl(47, 88%, 55%);
+    
+}
+.data {
+    color: hsl(0, 0%, 7%);
+    font-weight: 500;
+}
+.conteiner-conteudo p {
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 42%);
+}
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+}
+.conteiner-conteudo h1 {
+    margin-bottom: 20px;
+}
+.conteiner-conteudo h1:hover {
+    color:  hsl(47, 88%, 55%);
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.usuario img {
+    width: 32px;
+}
