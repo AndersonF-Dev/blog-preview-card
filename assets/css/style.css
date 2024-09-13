@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .card-conteiner {
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
@@ -28,9 +29,6 @@ body {
     margin-bottom: 24px;
 }
 
-.conteiner-conteudo {
-    margin-bottom: 0px;
-}
 .bt {
     background-color: hsl(47, 88%, 63%);
     width: 82px;
@@ -40,27 +38,34 @@ body {
     margin-bottom: 10px;
     font-weight: 800;
     cursor: pointer;
-    
+    transition: 0.3s ease-in-out;
 }
+
 .bt:hover {
-    background-color: hsl(47, 88%, 55%);
+    background-color: hsl(47, 89%, 48%);
+    color: hsl(0, 0%, 100%);
     
 }
+
 .data {
     color: hsl(0, 0%, 7%);
     font-weight: 500;
 }
+
 .conteiner-conteudo p {
     margin-bottom: 20px;
     color: hsl(0, 0%, 42%);
 }
+
 a {
     text-decoration: none;
     color: hsl(0, 0%, 7%);
 }
+
 .conteiner-conteudo h1 {
     margin-bottom: 20px;
 }
+
 .conteiner-conteudo h1:hover {
     color:  hsl(47, 88%, 55%);
 }
@@ -71,6 +76,15 @@ a {
     gap: 10px;
     margin-top: 20px;
 }
+
 .usuario img {
     width: 32px;
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
 }
