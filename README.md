@@ -6,7 +6,7 @@ Esta é uma solução para o [Desafio da página de receitas no Frontend Mentor]
 
 ### Screenshot
 
-[<img src="./assets/images/blog-preview-card.gif.gif" alt="gif da tela inicial do projeto blog card">]
+[<img src="./assets/images/blog-preview-card.gif" alt="gif da tela inicial do projeto blog card">]
 
 
 ### Link
