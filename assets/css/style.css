@@ -24,19 +24,19 @@ body {
 }
 
 .illustration img {
-    max-width: 336px;
+    width: 100%;
     border-radius: 10px;
     margin-bottom: 24px;
 }
 
 .bt {
     background-color: hsl(47, 88%, 63%);
-    width: 82px;
-    height: 29px;
+    padding: 10px;
     border-radius: 4px;
     border: none;
     margin-bottom: 10px;
     font-weight: 800;
+    font-size: 18px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
@@ -48,13 +48,17 @@ body {
 }
 
 .data {
-    color: hsl(0, 0%, 7%);
+    margin: 20px 0px;
     font-weight: 500;
+    font-size: clamp(0.1em, 1em + 1vw, 0.9em);
 }
 
 .conteiner-conteudo p {
-    margin-bottom: 20px;
     color: hsl(0, 0%, 42%);
+}
+
+.conteiner-conteudo p:last-child {
+    font-size: clamp(1em, 1em + 1vw, 0.9em);
 }
 
 a {
@@ -64,6 +68,7 @@ a {
 
 .conteiner-conteudo h1 {
     margin-bottom: 20px;
+    font-size: clamp(1em, 1em + 1vw, 1.3em);
 }
 
 .conteiner-conteudo h1:hover {
@@ -74,7 +79,7 @@ a {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .usuario img {
